@@ -16,8 +16,7 @@ export class CameraPage {
   		encodingType: this.camera.EncodingType.JPEG,
   		mediaType: this.camera.MediaType.PICTURE
 	};
-	base64ToGallery: Base64ToGallery;
-	constructor(private camera: Camera, public navCtrl: NavController) { 
+	constructor(private camera: Camera, public navCtrl: NavController, private base64ToGallery : Base64ToGallery) { 
 	}
 
 	runCamera(){
