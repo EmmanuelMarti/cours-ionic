@@ -31,6 +31,7 @@ export class CameraPage {
 		)
 		}, (err) => {
 	 	// Handle error
+	 	
 		});
 	}
 	
