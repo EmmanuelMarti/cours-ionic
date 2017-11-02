@@ -10,7 +10,12 @@
 <ion-content padding>
   <h3>Je suis dans la page camera</h3>
   <button ion-button secondary (click)="runCamera()">Ouvrir la caméra</button>
-  <img src="{{base64Image}}">
+  <button ion-button secondary (click)="runNotif()">Ouvrir la notif</button>
+  <button ion-button secondary (click)="takeVideo()">Prendre une vidéo</button>
+  <img src="{{base64Image}}" />
+  <video *ngIf="PathVideo != null" controls="controls"  autoplay style="width:100%">
+    <source src="{{PathVideo}}" type="video/mp4" />
+  </video>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>

@@ -1,4 +1,6 @@
-##Marti Emmanuel Master 2 
+## Marti Emmanuel Master 2 
+## Code ionic view : 7e5d7b44
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
